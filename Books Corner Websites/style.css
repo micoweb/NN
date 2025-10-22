@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: "Outfit", serif;
+    font-weight: 500;
+    user-select: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    unicode-bidi: isolate;
+    direction: ltr;
+    transition: 1s ease-in;
+    background-color: #f3f3f3;
+    width: auto;
+
+}
+
+
+.headings {
+    font-size: 23px;
+    font-family: "Outfit", serif;
+    transition: 1s;
+    font-weight: 700;
+    padding: 0;
+    margin-left: 15px;
+    position: relative;
+    top: 12px;
+    color: #353434;
+
+}
+
+
+#header {
+    width: 100%;
+    height: 105px;
+    background: linear-gradient(270deg, #f3f3f3 20%, #fdc200ab 80%);
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(20px);
+    z-index: 10;
+    border-bottom: #ffffff5d 5px solid;
+    margin: 0;
+    box-shadow: 0 10px 30px #ffffffc4;
+    border-radius: 0px 0px 16px 16px;
+}
+
+#header2 {
+    width: 96%;
+    height: 28px;
+    background: #30303060;
+    position: relative;
+    backdrop-filter: blur(20px);
+    top: -17px;
+    margin: 0;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.linksF {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    position: relative;
+    top: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway";
+    font-weight: 500;
+}
+
+.linksF:last-child {
+    float: right;
+    margin-right: 20px;
+    font-weight: 800;
+    top: 5.5px;
+}
+
+
+#logo {
+    width: 160px;
+    display: inline;
+    margin: 15px;
+    transition: 1s;
+}
+
+.whatsappBtn {
+    font-size: 35px;
+    float: right;
+    margin-top: 19px;
+    margin-right: 11px;
+    transition: 1s;
+    color: green;
+}
+
+.facebookBtn {
+    font-size: 31px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 14px;
+    transition: 1s;
+    color: rgb(0, 83, 131);
+}
+
+#phoneNum {
+    float: right;
+    margin-top: 16px;
+    margin-right: 40px;
+    font-size: 15px;
+    color: rgb(0, 56, 7);
+    font-weight: 600;
+}
+
+#corsual {
+    position: relative;
+    top: 100px;
+}
+
+#img1CO {
+    width: 100%;
+}
+
+
+#gradesDiv {
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(270deg, #f1b7b7, #fdc200ab);
+    border-radius: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    transition: 1s;
+    border: #ffffffe3 3px solid;
+}
+
+#gardeDivide2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.grades1 {
+    position: relative;
+    text-decoration: none;
+    width: 75%;
+    color: white;
+    margin-bottom: 200px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 60px;
+    font-family: 'Sour Gummy';
+    transition: 1s;
+    font-weight: 600;
+    border: #ffffffe3 3px solid;
+
+
+}
+
+.grades1:hover {
+    border: #ff2802e3 3px solid;
+}
+
+
+#gradeA {
+    background: rgb(204, 58, 0);
+    display: block;
+    margin-bottom: 40px;
+}
+
+#gradeS {
+    background: rgb(184, 119, 0);
+}
+
+#grade0 {
+    background: rgb(145, 0, 137);
+}
+
+#gradeP {
+    background: rgb(50, 0, 129);
+}
+
+#grade1 {
+    background: rgb(150, 147, 0);
+}
+
+#grade2 {
+    background: rgb(52, 92, 0);
+}
+
+#grade3 {
+    background: rgb(0, 63, 78);
+}
+
+#grade4 {
+    display: none;
+    background: rgb(92, 2, 194);
+}
+
+#grade5 {
+    display: none;
+    background: rgb(153, 0, 255);
+}
+
+#heading2 {
+    margin-top: 60px;
+}
+
+#bpDiv {
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0);
+    padding: 10px;
+    border-radius: 0px;
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+
+.bpLink {
+    text-decoration: none;
+
+}
+
+.bps {
+    width: 40px;
+    height: fit-content;
+    display: inline-table;
+    margin: 5px;
+    text-align: left;
+    background: white;
+    padding: 7px;
+    border-radius: 15px;
+    box-shadow: 0;
+     border: 0 solid #ffffff;
+}
+
+.bps:hover {
+    border: 2px rgba(175, 175, 175, 0.459) solid;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 5px #cfcfcf, 0 0 40px 10px #ffffff;
+}
+
+.bpImg {
+    width: 260px;
+    margin-bottom: -15px;
+    border-radius: 10px;
+}
+
+
+.bpTitle {
+    margin-left: 6px;
+    margin-bottom: -15px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.bpPriceTag {
+    margin-left: 6px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#priceStr {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.whtBtn {
+    width: 170px;
+    margin-top: -3px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+}
+
+
+@media (max-width: 640px) {
+    .grades1 {
+        display: block;
+        margin: 10px;
+    }
+
+    #gradeA {
+        background: rgb(204, 58, 0);
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    #gardeDivide2 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+}
+@media (max-width: 590px) {
+   
+    .bpImg {
+    width: 300px;
+    margin-bottom: -15px;
+    border-radius: 10px;
+}
+
+}
+
+@media (max-width: 470px) {
+    #phoneNum {
+        display: none;
+    }
+
+     .grades1 {
+        display: block;
+        margin: 5px;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #gradeA {
+        background: rgb(204, 58, 0);
+        display: block;
+        margin-bottom: 20px;
+        margin-top: -9px;
+    }
+
+    #gardeDivide2 {
+        margin-top: -20px;
+        margin-bottom: -5px;
+    }
+
+
+
+}
+
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    backdrop-filter: blur(5px);
+
+}
+
+footer {
+    background: #e2e2e2;
+    margin-bottom: -25px;
+    box-shadow: #e2e2e2 0 0 25px, #e2e2e2 0 0 30px, #e2e2e2 0 0 35px, #e2e2e2 0 0 45px, #e2e2e2 0 0 55px, #e2e2e2 0 0 70px, #e2e2e2 0 0 80px, #e2e2e2 0 0 95px, #e2e2e2 0 0 110px, #e2e2e2 0 0 125px;
+    border: none;
+}
+
+#lineBreaker {
+    width: 90%;
+}
+
+#cc {
+    font-family: "Raleway", sans-serif;
+    padding: 20px 0 40px 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(61, 61, 61);
+}
+
+
+
+#iconMico {
+    width: 50px;
+    margin: 0px 30px 0px 30px;
+    float: right;
+    position: relative;
+    top: -15px;
+}
+
+.footerA {
+    font-family: "Raleway", sans-serif;
+    margin: 0px 30px 0px 30px;
+    color: black;
+    text-decoration: none;
+}
+
+#footerlinksDiv {
+    margin: 50px 30px 50px 30px;
+}
+
+#footerH3 {
+    font-size: 30px;
+    color: #000;
+}
