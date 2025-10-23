@@ -300,11 +300,18 @@ body {
 
 }
 @media (max-width: 590px) {
+    #bpDiv{
+      width: none;
+    }
+    .bps{
+        width: 90%;
+    }
    
     .bpImg {
-    width: 300px;
+    
     margin-bottom: -15px;
     border-radius: 10px;
+    width: 100%;
 }
 
 }
